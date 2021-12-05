@@ -2,24 +2,16 @@ package com.begers.instagramclonekotlin
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
+import com.begers.instagramclonekotlin.databinding.ActivityFeedBinding
 import com.begers.instagramclonekotlin.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class FeedActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityFeedBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityFeedBinding.inflate(layoutInflater)
         setContentView(binding.root)
-    }
-
-    fun signInClicked(view: View) {
-
-    }
-
-    fun signUpClicked(view: View) {
-
     }
 }
