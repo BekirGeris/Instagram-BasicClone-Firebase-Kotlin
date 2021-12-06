@@ -1,4 +1,4 @@
-package com.begers.instagramclonekotlin
+package com.begers.instagramclonekotlin.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
